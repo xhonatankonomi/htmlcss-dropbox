@@ -8,17 +8,32 @@
 
 .container {
     width: 100%;
-    display: flex;
     justify-content: space-between;
     background-color: aqua;
     height: 3rem;
 }
 
-.left {
+.main-container {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex {
     display: flex;
-    justify-content: start;
+}
+
+.left {
     flex-direction: row;
     align-items: center;
+}
+
+.card-section {
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .logo-header {
@@ -26,13 +41,37 @@
     list-style: none;
 }
 
+.menu {
+    margin: 10px;
+}
+
 .menu li {
     display: inline-block;
 }
 
 .right {
-    display: flex;
     justify-content: end;
     align-items: center;
 }
 
+.top-header-text {
+    max-width: 85%;
+    font-size: 25px;
+    background-color: rebeccapurple;
+}
+
+.in-line-container {
+    justify-content: space-between; 
+    width: 85%; 
+    margin-top: 10px;
+    background-color: bisque;
+    align-items: center;
+}
+
+.left-in-line {
+    flex-basis: 30%;
+}
+
+.right-in-line {
+    flex-basis: 70%;
+}
