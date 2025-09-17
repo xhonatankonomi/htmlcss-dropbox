@@ -1,0 +1,38 @@
+*   {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    border: 1px dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 3rem;
+}
+
+.left {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-header {
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
