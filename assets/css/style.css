@@ -31,9 +31,10 @@
 
 .card-section {
     width: 50%;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     margin: 0 auto;
+    background-color: aquamarine;
 }
 
 .logo-header {
@@ -74,4 +75,24 @@
 
 .right-in-line {
     flex-basis: 70%;
+}
+
+.select-container {
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.plans-container {
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+.plans-card {
+
 }
